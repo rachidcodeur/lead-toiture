@@ -117,7 +117,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "<h3 class=\"lt-demande-titre\">" + escapeHtml(d.titre) + "</h3>" +
         "<p class=\"lt-demande-ville\">" + mapIconSvg + " " + escapeHtml(d.ville) + " (" + escapeHtml(d.codePostal || "") + ")</p>" +
         "<div class=\"lt-demande-description-blur\" aria-hidden=\"true\">" + escapeHtml(d.description) + "</div>" +
-        "<p class=\"lt-demande-cta\"><a href=\"#inscription\" class=\"lt-btn lt-btn-primary lt-btn-small\">Récupérer les infos</a></p>" +
+        "<p class=\"lt-demande-cta\"><a href=\"https://www.home-service.io/category/espace-artisan\" class=\"lt-btn lt-btn-primary lt-btn-small\" target=\"_blank\" rel=\"noopener noreferrer\">Récupérer les infos</a></p>" +
         "</div>";
       demandesTrack.appendChild(article);
     });

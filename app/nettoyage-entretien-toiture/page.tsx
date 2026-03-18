@@ -29,9 +29,14 @@ export default function NettoyageEntretienToiturePage() {
               les projets.
             </p>
             <div className="lt-hero-actions">
-              <Link href="/#inscription" className="lt-btn lt-btn-primary">
+              <a
+                href="https://www.home-service.io/"
+                className="lt-btn lt-btn-primary"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Inscription gratuite
-              </Link>
+              </a>
             </div>
             <div className="lt-hero-meta">
               <div className="lt-meta-item">
@@ -201,9 +206,14 @@ export default function NettoyageEntretienToiturePage() {
                   l&apos;isolation ou des travaux de zinguerie, Lead Toiture peut aussi vous
                   envoyer des leads sur ces prestations.
                 </p>
-                <Link href="/#inscription" className="lt-btn lt-btn-primary lt-btn-inline">
+                <a
+                  href="https://www.home-service.io/"
+                  className="lt-btn lt-btn-primary lt-btn-inline"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Rejoindre Lead Toiture
-                </Link>
+                </a>
               </div>
             </div>
           </div>

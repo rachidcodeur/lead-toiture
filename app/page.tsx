@@ -52,9 +52,14 @@ export default function Home() {
                 Lead Toiture vous met en relation avec des particuliers ayant un projet concret de toiture dans vos communes d&apos;intervention. Vous vous concentrez sur vos chantiers, nous nous occupons de la prospection.
               </p>
               <div className="lt-hero-actions">
-                <Link href="#inscription" className="lt-btn lt-btn-primary">
+                <a
+                  href="https://www.home-service.io/"
+                  className="lt-btn lt-btn-primary"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Inscription gratuite
-                </Link>
+                </a>
                 <button type="button" className="lt-btn lt-btn-secondary" data-scroll-to="#fonctionnement">
                   Découvrir le fonctionnement
                 </button>
@@ -139,9 +144,14 @@ export default function Home() {
                   <br />
                   pour les couvreurs
                 </h2>
-                <Link href="#inscription" className="lt-btn lt-btn-primary">
+                <a
+                  href="https://www.home-service.io/"
+                  className="lt-btn lt-btn-primary"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Rejoindre le réseau
-                </Link>
+                </a>
               </div>
               <p>
                 Un flux régulier d&apos;opportunités de chantiers, sans démarchage agressif et sans concurrence directe sur chaque demande de devis.

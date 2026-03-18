@@ -93,7 +93,12 @@ export default function SliderDemandes() {
                   {d.description}
                 </div>
                 <p className="lt-demande-cta">
-                  <Link href="#inscription" className="lt-btn lt-btn-primary lt-btn-small">
+                  <Link
+                    href="https://www.home-service.io/category/espace-artisan"
+                    className="lt-btn lt-btn-primary lt-btn-small"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     Récupérer les infos
                   </Link>
                 </p>

@@ -314,13 +314,13 @@ main {
 }
 .lt-mobile-panel-cta {
   margin-top: 16px;
-  background-color: #fff;
-  color: #18534f;
-  border-color: #fff;
+  background-color: var(--lt-accent-secondary);
+  color: #ffffff;
+  border-color: var(--lt-accent-secondary);
 }
 .lt-mobile-panel-cta:hover {
-  background-color: var(--lt-bg-gray);
-  color: #18534f;
+  background-color: #c0864f;
+  color: #ffffff;
 }
 
 @media (min-width: 769px) {
@@ -333,7 +333,9 @@ main {
 @media (max-width: 768px) {
   .lt-hamburger-wrap {
     display: block;
-    justify-self: end;
+    position: absolute;
+    right: 16px;
+    top: 6px;
   }
 
   .lt-hamburger {
@@ -1424,7 +1426,7 @@ h6 {
   .lt-header-inner {
     height: 56px;
     padding: 0 16px;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: auto 1fr auto;
   }
 
   .lt-nav {
@@ -1432,7 +1434,9 @@ h6 {
   }
 
   .lt-nav-btn {
-    justify-self: center;
+    justify-self: end;
+    /* décale légèrement le bouton pour ne pas chevaucher le menu */
+    margin-right: 56px;
   }
 
   .lt-logo {
@@ -1454,7 +1458,7 @@ h6 {
   }
 
   h2 {
-    font-size: 23px;
+    font-size: 22px;
     line-height: 1.3;
     margin-bottom: 12px;
   }

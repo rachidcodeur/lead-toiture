@@ -72,13 +72,15 @@ export default function MobileNav() {
               {label}
             </Link>
           ))}
-          <Link
-            href="#inscription"
+          <a
+            href="https://www.home-service.io/"
             className="lt-btn lt-btn-primary lt-mobile-panel-cta"
+            target="_blank"
+            rel="noopener noreferrer"
             onClick={close}
           >
             Inscription
-          </Link>
+          </a>
         </nav>
       </aside>
     </>

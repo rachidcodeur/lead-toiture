@@ -77,6 +77,15 @@ export default function RootLayout({
   return (
     <html lang="fr">
       <head>
+        <link
+          rel="icon"
+          href="/images/favicon-lead-toiture.png"
+          sizes="32x32"
+        />
+        <link
+          rel="apple-touch-icon"
+          href="/images/favicon-lead-toiture.png"
+        />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
         <link
@@ -137,7 +146,12 @@ export default function RootLayout({
                 Demandes de devis
               </a>
             </nav>
-            <a href="#inscription" className="lt-btn lt-btn-primary lt-nav-btn">
+            <a
+              href="https://www.home-service.io/"
+              className="lt-btn lt-btn-primary lt-nav-btn"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Inscription
             </a>
             <MobileNav />
